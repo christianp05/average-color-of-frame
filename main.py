@@ -46,8 +46,8 @@ def main():
 
 print("[+] SETUP COMPLETE STARTING ANALYZING")
 main()
-#print("[+] DRAWING DONE SAVING THE IMAGE....")
-#final_im.save("final.png")
+print("[+] DRAWING DONE SAVING THE HIGH RES IMAGE....")
+final_im.save("final.png")
 print("[+] IMAGE CALCULATED RESIZING....")
 resizeImage()
 print("DONE QUITTING....")
